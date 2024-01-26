@@ -1,0 +1,249 @@
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+*{margin: 0;
+    }
+
+
+body{
+background-color: black;
+}
+
+
+.main{
+    background-image: url(assets/IN-en-20231127-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
+    background-repeat: no-repeat;
+    height: 75.5vh;
+    background-position: center center;
+    position: relative;
+    background-size: max(1200px,130vw);
+    
+
+    
+    
+}
+.main .box{
+    height: 75.5vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: rgb(0 0 0/40);
+   
+position: absolute;
+top: 0;
+
+}
+.main nav{
+    
+    height: 8vh;
+  
+}
+
+nav{
+    max-width: 62vw;
+    display: flex;
+    justify-content: space-between;
+   margin: auto;
+    align-items: center;
+height: 3%;
+position: relative;
+z-index: 10;
+
+
+}
+.hero{
+    height: calc(100% - 8vh) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    font-family: 'Netflix Font', sans-serif;
+    margin: auto;
+    align-items: center;
+    max-width: 62vw;
+    text-align: center;
+    padding: 0 30px;
+}
+.hero> :first-child{
+  
+    font-weight: 900;
+    font-size: 2.5rem;
+   
+}
+.hero> :nth-child(2){
+font-size: 1.5rem;
+font-weight: 400;
+}
+.hero> :nth-child(3){
+font-size: 1.25rem;
+font-weight: 400;
+}
+
+.btn{
+    
+    padding: 9px 24px;
+    
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 20px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+/* .email{
+    width: 23vw;
+        line-height: 1.5;
+        min-height: 16px;
+        min-width: 16px;
+        border: 1 solid transparent;
+    font-size: 1.25rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+background: transparent;
+border-radius: 0.25rem;
+} */
+.seprat{
+    background-color: gray;
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(35, 35, 35);
+    position: absolute;
+}
+.btnred{
+      
+    width: auto;
+    
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 1;
+    letter-spacing: normal;
+    margin-left: 1.5rem;
+    height:3vh ;
+    
+}
+.lng{
+    background: transparent;
+    color: white;
+    border: 1;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 1;
+    letter-spacing: normal;
+    height: 3vh;
+
+}
+.main input{
+    padding: 14px 40px;
+    
+    border-radius: 4px;
+    background-color: rgb(23, 23, 23,0.5);
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+   
+}
+img.logo{
+    height: 4vh;
+}
+.box2{
+    color: white;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height:62.5vh ;
+    display: flex;
+    max-width: 65vw;
+    margin: auto;
+    
+}
+.tex{
+    display: grid;
+    direction: column;
+    text-align: left;
+    gap: 20px;
+}
+.tex> :nth-child(1){
+    font-size: 3rem;
+    font-weight: 900;
+    }
+.tex> :nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+    }
+
+.tv{
+    max-width: 33vw;
+    
+}
+.tv img{
+    max-width: 30vw;
+    margin: 1rem;
+    position: relative;
+   z-index: 15;
+}
+.tv video{
+    position: absolute;
+    
+    width: 22vw;
+    top: 92.8vh;
+    left: 55vw;
+}
+.box3{
+    color: white;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height:62.5vh ;
+    display: flex;
+    max-width: 65vw;
+    margin: auto;
+}
+.box4{
+    color: white;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height:62.5vh ;
+    display: flex;
+    max-width: 65vw;
+    margin: auto;
+}
+.mac img{
+    position: relative;
+    z-index: 10;
+}
+.mac video{
+    position: absolute;
+    width: 22vw;
+    top: 210vh;
+    left: 53vw;
+}
+.box5{
+    color: white;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height:62.5vh ;
+    display: flex;
+    max-width: 65vw;
+    margin: auto;
+}
+.box6{
+    color: white;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height:62.5vh ;
+    display: flex;
+    max-width: 65vw;
+    margin: auto;
+}
+.box6 img{
+    width: 20vw;
+    margin: 5rem;
+}
